@@ -1,0 +1,44 @@
+.container
+    max-width: 1200px
+    margin: auto
+    padding-left: 30px
+    padding-right: 30px
+    &-wrapper
+        height: 100vh
+        display: flex
+        justify-content: center
+        align-items: center
+.form
+    width: 600px
+    height: 600px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-color: #bba9d4
+    &__input
+        padding: 20px 45px
+        margin-bottom: 10px
+        border: none
+        border-radius: 8px
+        background-color: aquamarine
+    &-title
+        color: #ffffff
+        text-transform: uppercase
+    &__btn
+        margin-top: 25px
+        padding: 10px 25px
+        border: none
+        border-radius: 6px
+        background-color: #fa70c8
+        cursor: pointer
+        color: #ffffff
+        transition: 0.3s ease-in
+        &:hover
+                padding: 10px 50px
+                transition: 0.3s ease-in
+.err
+    border: 2px solid red
+.error
+    text-transform: uppercase
+    margin-bottom: 5px
